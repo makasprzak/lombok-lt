@@ -22,4 +22,9 @@ public class NastyThrower {
     public void thisOneThrowsChecked() {
         throw new Exception("Surprize!");
     }
+
+    public void thisOneThrowsCheckedToo() {
+        Sneak.sneakyThrow(new Exception("Whoa!"));
+    }
+
 }
