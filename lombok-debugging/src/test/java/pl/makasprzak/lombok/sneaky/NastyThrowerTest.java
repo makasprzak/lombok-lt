@@ -10,11 +10,6 @@ public class NastyThrowerTest {
     }
 
     @Test(expected = Exception.class)
-    public void blessedWhoBelieveWithoutSeeing() throws Exception {
-        new NastyThrower().thisOneThrowsCheckedToo();
-    }
-
-    @Test(expected = Exception.class)
     public void howAboutWithTheLambdaCase() {
         new NastyThrower().thisOneWouldLikeToTrySomeLambda();
     }
